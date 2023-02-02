@@ -1,0 +1,109 @@
+
+
+body{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: 100vh;
+    background-image: url(../image/bg-repeat.jpg);
+    background-size: contain;
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.msg-info {
+    width: 340px;
+    color: var(--primary-color);
+}
+
+div.msg-info h2 {
+    font-weight: 900;
+    font-size: 2.2rem;
+    line-height: 2.5rem;
+    margin-bottom: 1.1rem;
+}
+
+div.msg-info p {
+    font-size: 1.7rem;
+    font-weight: 400;
+    line-height: 2rem;
+}
+
+section.section-rigth{
+    /* height: 100vh; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+div.form-container{
+    width: 40rem;
+    height: 48rem;
+    background-color: var(--primary-color);
+    
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input, button.btn{
+    border: 1px solid;
+    height: 3.5rem;
+    padding: 9px;
+    margin-top: 15px;
+    width: 30rem;
+    border-radius: 5px;
+    font-size: 15px;
+    outline: none;
+}
+
+input::placeholder, button.btn::placeholder {
+    font-weight: 700;
+    color: var(--second-color);
+}
+
+input.textarea{
+    padding: 15px 10px 100px;
+}
+
+div.controle-form.erro input{
+    border: 1px solid var(--error);
+}
+
+
+div.controle-form.sucesso input{
+    border: 1px solid var(--sucess);
+}
+
+
+p.msg-erro{
+    font-size: 1.2rem;
+    color: var(--error);
+}
+
+button.btn{
+    background-color: #3CCC87;
+    border: none;
+
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--primary-color);
+    cursor: pointer;
+
+    margin-top: 4rem;
+}
+
+button.btn:hover{
+    background-color: #3ccc86e8;
+    transition: .2s ease-in-out;
+    font-size: 1.53rem;
+}
+
+h4.campo-obrigatorio{
+    font-size: 15px;
+    font-weight: 400;
+}

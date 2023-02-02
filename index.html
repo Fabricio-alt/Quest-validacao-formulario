@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/variaveis.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <section class="info">
+        <div class="msg-info">
+            <h2>FICOU COM DÚVIDA?<br> NOS MANDE UMA MENSAGEM!</h2>
+            <p>
+                caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos de
+                24h.
+            </p>
+        </div>
+    </section>
+    <section class="section-rigth">
+        <div class="form-container">
+            <form action="#">
+                <div class="controle-form">
+
+                    <input type="text" name="name" id="name" placeholder="Nome completo *">
+                    <p class="msg-erro"></p>
+
+                </div>
+                <div class="controle-form">
+
+                    <input type="email" name="email" id="email" placeholder="Email *">
+                    <p class="msg-erro"></p>
+
+                </div>
+                <div class="controle-form">
+
+                    <input type="tel" name="phone" id="phone" placeholder="Telefone *">
+                    <p class="msg-erro"></p>
+
+                </div>
+                <div class="controle-form">
+
+                    <input class="textarea" type="text" name="message" id="message" placeholder="Mensagem *">
+                    <p class="msg-erro"></p>
+
+                    <h4 class="campo-obrigatorio">*Campos Obrigatórios</h4>
+
+                </div>
+                <!-- <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Mensagem *"></textarea> -->
+                
+                <button class="btn" id="btn">Enviar</button>
+            </form>
+        </div>
+    </section>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
