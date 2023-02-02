@@ -4,4 +4,4 @@
 
 #### Clique aqui para ver o formulário <https://fabricio-alt.github.io/Quest-validacao-formulario/>
 
-(image/print.png)
+<img src="image/print.png">
